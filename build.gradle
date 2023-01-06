@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'co.gov.fna'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //Junit
+    testImplementation 'junit:junit:4.13.1'
+    //Screenplay
+    implementation 'net.serenity-bdd:serenity-screenplay:3.5.0'
+    implementation 'net.serenity-bdd:serenity-screenplay-webdriver:3.5.0'
+    //Cucumber
+    testImplementation 'net.serenity-bdd:serenity-cucumber:3.5.0'
+}
+
+//Gradle: gestor de dependencias y compilar el proyecto
